@@ -58,7 +58,7 @@ Nachfogend werden ein paar Befehle aufgelistet.
 ###Dokumentation ist als Mark Down vorhanden
 Die Dokumentation ist in Visual Studio Dokumentiert. 
 ###Mark Down-Editor ausgewählt und eingerichtet
-Als Mark Down-Editor verwende ich den Editor von Yu Zhang. Dieser Editor ist vom Design angenehm und bietet auch Shortcuts an. Ein Beispiel für so ein Shortcut wäre Ctrl+B. Hier werden gleich die ** erstellt, welche man braucht um etwas **Fett** zu schreiben. 
+Als Mark Down-Editor verwende ich Visual studio Code. Dieser Editor ist vom Design angenehm und bietet auch Shortcuts an. Ein Beispiel für so ein Shortcut wäre Ctrl+B. Hier werden gleich die ** erstellt, welche man braucht um etwas **Fett** zu schreiben.
 ##K3
 ###Bestehende vm aus Vagrant-Cloud einrichten
 Um eine bestehende VM mit Vagrant einzurichten muss zuerst das Vagrantfile vorhanden sein. Dafür habe ich das Repository "M300" heruntergeladen. DAnach bin ich in das Verzeichnis in der GitBash gewechselt wo das Vagrantfile hinterlegt ist und habe VM mit folgendem Befehl erstellt.
