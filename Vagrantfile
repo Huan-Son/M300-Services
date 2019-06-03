@@ -14,10 +14,10 @@ Vagrant.configure("2") do |config|
 			vb.name = "web"
 		
 		end
-		
-		web.vm.synced_folder ".", "/vagrant"
-		
-		web.vm.provision "shell", path: "web.sh"
+		config.vm.provision "shell", inline: <<-SHELL
+		sudo apt-get update
+		sudo apt-get -y install apache2 
+	SHELL
 	end			
 
 end
