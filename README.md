@@ -74,7 +74,6 @@ Eine Vagrant-Box aus der Vagrant-Cloud zu holen und eine VM zu ersellen ist mit 
 Möchte man alle Boxen auflisten kann man das mit folgendem Befehl machen. 
 ```
     $ vagrant box list
-    Microsoft/EdgeOnWindows10 (virtualbox, 1.0)
     centos/7                  (virtualbox, 1902.01)
     ubuntu/trusty64           (virtualbox, 20190429.0.1)
     ubuntu/xenial64           (virtualbox, 20190511.0.0)
@@ -88,7 +87,7 @@ Möchte man alle Boxen auflisten kann man das mit folgendem Befehl machen.
 | vagrant ssh      | Verbindet sich mit ssh auf die VM    |
 | vagrant init     | Erstellt ein Vagrantfile             |
 
-### Netzwerkplan (noch nicht fertig https://textik.com/#d06fea5bb443e168)
+### Netzwerkplan
 | Befehl           | Beschreibung                         |
 |------------------|--------------------------------------|
 | vagrant box add  | Eine Vagrant-Box wird hinzugefügt    |
