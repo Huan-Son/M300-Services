@@ -57,24 +57,20 @@ Nachfogend werden ein paar Befehle aufgelistet.
 | git push | Mit diesem Befehl wird ein Upload bzw. ein push durchgeführt|                                                           
 ###Dokumentation ist als Mark Down vorhanden
 Die Dokumentation ist in Visual Studio Dokumentiert. 
-![Makrdown Editor](./images/markdown_documentation.png)
 ###Mark Down-Editor ausgewählt und eingerichtet
 Als Mark Down-Editor verwende ich den Editor von Yu Zhang. Dieser Editor ist vom Design angenehm und bietet auch Shortcuts an. Ein Beispiel für so ein Shortcut wäre Ctrl+B. Hier werden gleich die ** erstellt, welche man braucht um etwas **Fett** zu schreiben. 
-![Makrdown Editor](./images/markdown_editor.png)
 ##K3
 ###Bestehende vm aus Vagrant-Cloud einrichten
 Um eine bestehende VM mit Vagrant einzurichten muss zuerst das Vagrantfile vorhanden sein. Dafür habe ich das Repository "M300" heruntergeladen. DAnach bin ich in das Verzeichnis in der GitBash gewechselt wo das Vagrantfile hinterlegt ist und habe VM mit folgendem Befehl erstellt.
 ```
     Vagrant up
 ```
-![bestehende VM](./images/bestehende_vm_vagrant.png)
 ###andere, vorgefertigte vm auf eigenem Notebook aufgesetzt
 Eine Vagrant-Box aus der Vagrant-Cloud zu holen und eine VM zu ersellen ist mit zwei Zeilen Befehl möglich. 
 ```
-    vagrant init centos/7
+    vagrant init ubuntu/xenial64
     vagrant up
 ```
-![Cent OS mit Vagrant](./images/vagrant_init_centos.png)
 Möchte man alle Boxen auflisten kann man das mit folgendem Befehl machen. 
 ```
     $ vagrant box list
